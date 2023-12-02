@@ -25,8 +25,8 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: 3.change Mode Gradlew 
-      run: chmod +x /home/runner/work/cloudnative/cloudnative/gradlew
+    # - name: 3.change Mode Gradlew 
+    #   run: chmod +x /home/runner/work/cloudnative/cloudnative/gradlew
 
     - name: 4.Build with Gradle
       uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
